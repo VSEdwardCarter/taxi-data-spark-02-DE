@@ -1,0 +1,54 @@
+# ===============================
+# Python / Virtual Environments
+# ===============================
+pypipe/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# ===============================
+# Spark / Hadoop Artifacts
+# ===============================
+metastore_db/
+spark-warehouse/
+derby.log
+*.crc
+_SUCCESS
+
+# ===============================
+# Data (NEVER commit raw or processed data)
+# ===============================
+data/
+!data/.gitkeep
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+.notebooks/
+
+# ===============================
+# IntelliJ / PyCharm
+# ===============================
+.idea/
+*.iml
+out/
+
+# ===============================
+# OS / Editor Noise
+# ===============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
