@@ -1,6 +1,6 @@
 from pyspark.sql import SparkSession
 
-def build_spark(app_name: str) -> SparkSession:
+def build_spark(app_name:str) -> SparkSession:
     spark = (
         SparkSession.builder
         .appName(app_name)
