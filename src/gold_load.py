@@ -5,9 +5,6 @@ from src.spark import build_spark
 silver_inputFile = SILVER_CLEAN_DIR / "clean_silver_yellow_tripdata"
 gold_outputFile = GOLD_DIR / "gold_metrics"
 
-# SILVER_IN = SILVER_DIR / "trips_clean" / "clean_silver_yellow_tripdata"
-# GOLD_OUT  = GOLD_DIR / "daily_metrics" / "yellow_tripdata_2016-01"
-
 def main():
     spark = build_spark("2016-03-gold-metrics")
 
